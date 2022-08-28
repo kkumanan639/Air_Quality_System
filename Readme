@@ -1,3 +1,2 @@
-# Overview
 Refman is a rich text format output from doxygen that needs to be downloaded to be viewed properly. This repository shows code for the Air Quality System implemented with
 the avr128db48 microcontroller.
