@@ -1,0 +1,3562 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment Air Quality System }Air Quality System}
+{\comment Generated by doxygen1.9.3.}
+{\creatim \yr2022\mo5\dy5\hr10\min50\sec45}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Air Quality System}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Thu May 5 2022 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Data Structure Index\par \pard\plain 
+{\tc \v Data Structure Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Data Structures\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the data structures with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Command_address} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b result} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all files with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b LCD_DOG_avr128_driver.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b LCD_DOG_avr128_driver.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b main.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b MCP23017.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b MCP23017_driver.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b SCD41.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b SCD41.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b USART3.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b USART3.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/{\b LCD_DOG_avr128_driver.d} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/{\b main.d} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/{\b MCP23017.d} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/{\b SCD41.d} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/{\b USART3.d} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Data Structure Documentation{\tc \v Data Structure Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Command_address Union Reference\par \pard\plain 
+{\tc\tcl2 \v Command_address}
+{\xe \v Command_address}
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+\par
+{
+{\f2 #include <SCD41.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint16_t {\b address}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct \{\par
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+\~ uint8_t {\b address_lsb}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+\~ uint8_t {\b address_msb}\par
+}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+\}; \par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 120} of file {\b SCD41.h}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Field Documentation\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct  \{ ... \}  @1}}
+\par
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v address\:Command_address}
+{\xe \v Command_address\:address}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint16_t address}}
+\par
+{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 121} of file {\b SCD41.h}.}\par
+}
+{\xe \v address_lsb\:Command_address}
+{\xe \v Command_address\:address_lsb}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t address_lsb}}
+\par
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 123} of file {\b SCD41.h}.}\par
+}
+{\xe \v address_msb\:Command_address}
+{\xe \v Command_address\:address_msb}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t address_msb}}
+\par
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 124} of file {\b SCD41.h}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this union was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b SCD41.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+result Union Reference\par \pard\plain 
+{\tc\tcl2 \v result}
+{\xe \v result}
+{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+\par
+{
+{\f2 #include <SCD41.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Fields\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint16_t {\b merge}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct \{\par
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+\~ uint8_t {\b low}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+\~ uint8_t {\b high}\par
+}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+\}; \par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 129} of file {\b SCD41.h}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Field Documentation\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+struct  \{ ... \}  @3}}
+\par
+{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v high\:result}
+{\xe \v result\:high}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t high}}
+\par
+{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 133} of file {\b SCD41.h}.}\par
+}
+{\xe \v low\:result}
+{\xe \v result\:low}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t low}}
+\par
+{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 132} of file {\b SCD41.h}.}\par
+}
+{\xe \v merge\:result}
+{\xe \v result\:merge}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint16_t merge}}
+\par
+{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 130} of file {\b SCD41.h}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this union was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/{\b SCD41.h}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/LCD_DOG_avr128_driver.d File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/LCD_DOG_avr128_driver.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/LCD_DOG_avr128_driver.d}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+LCD_DOG_avr128_driver.d\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/LCD_DOG_avr128_driver.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/LCD_DOG_avr128_driver.d}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 LCD_DOG_avr128_driver.d LCD_DOG_avr128_driver.o: \\\par
+00002  .././LCD_DOG_avr128_driver.c \\\par
+00003  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h \\\par
+00004  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h \\\par
+00005  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h \\\par
+00006  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h \\\par
+00007  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h \\\par
+00008  C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h \\\par
+00009  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h \\\par
+00010  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h \\\par
+00011  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h \\\par
+00012  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h \\\par
+00013  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h \\\par
+00014  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h \\\par
+00015  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdio.h \\\par
+00016  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdarg.h \\\par
+00017  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stddef.h \\\par
+00018  .././LCD_DOG_avr128_driver.h\par
+00019 \par
+00020 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h:\par
+00021 \par
+00022 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h:\par
+00023 \par
+00024 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h:\par
+00025 \par
+00026 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h:\par
+00027 \par
+00028 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h:\par
+00029 \par
+00030 C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h:\par
+00031 \par
+00032 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h:\par
+00033 \par
+00034 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h:\par
+00035 \par
+00036 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h:\par
+00037 \par
+00038 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h:\par
+00039 \par
+00040 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h:\par
+00041 \par
+00042 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h:\par
+00043 \par
+00044 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdio.h:\par
+00045 \par
+00046 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdarg.h:\par
+00047 \par
+00048 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stddef.h:\par
+00049 \par
+00050 .././LCD_DOG_avr128_driver.h:\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/main.d File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/main.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/main.d}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+main.d\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/main.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/main.d}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 main.d main.o: .././main.c \\\par
+00002  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h \\\par
+00003  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h \\\par
+00004  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h \\\par
+00005  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h \\\par
+00006  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h \\\par
+00007  C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h \\\par
+00008  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h \\\par
+00009  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h \\\par
+00010  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h \\\par
+00011  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h \\\par
+00012  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h \\\par
+00013  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h \\\par
+00014  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h \\\par
+00015  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h \\\par
+00016  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\math.h \\\par
+00017  .././LCD_DOG_avr128_driver.h \\\par
+00018  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdio.h \\\par
+00019  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdarg.h \\\par
+00020  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stddef.h \\\par
+00021  .././SCD41.h .././USART3.h \\\par
+00022  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h \\\par
+00023  .././MCP23017_driver.h\par
+00024 \par
+00025 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h:\par
+00026 \par
+00027 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h:\par
+00028 \par
+00029 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h:\par
+00030 \par
+00031 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h:\par
+00032 \par
+00033 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h:\par
+00034 \par
+00035 C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h:\par
+00036 \par
+00037 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h:\par
+00038 \par
+00039 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h:\par
+00040 \par
+00041 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h:\par
+00042 \par
+00043 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h:\par
+00044 \par
+00045 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h:\par
+00046 \par
+00047 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h:\par
+00048 \par
+00049 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h:\par
+00050 \par
+00051 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h:\par
+00052 \par
+00053 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\math.h:\par
+00054 \par
+00055 .././LCD_DOG_avr128_driver.h:\par
+00056 \par
+00057 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdio.h:\par
+00058 \par
+00059 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdarg.h:\par
+00060 \par
+00061 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stddef.h:\par
+00062 \par
+00063 .././SCD41.h:\par
+00064 \par
+00065 .././USART3.h:\par
+00066 \par
+00067 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h:\par
+00068 \par
+00069 .././MCP23017_driver.h:\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/MCP23017.d File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/MCP23017.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/MCP23017.d}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+MCP23017.d\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/MCP23017.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/MCP23017.d}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 MCP23017.d MCP23017.o: .././MCP23017.c \\\par
+00002  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h \\\par
+00003  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h \\\par
+00004  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h \\\par
+00005  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h \\\par
+00006  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h \\\par
+00007  C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h \\\par
+00008  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h \\\par
+00009  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h \\\par
+00010  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h \\\par
+00011  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h \\\par
+00012  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h \\\par
+00013  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h \\\par
+00014  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h \\\par
+00015  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h \\\par
+00016  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\math.h \\\par
+00017  .././MCP23017_driver.h\par
+00018 \par
+00019 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h:\par
+00020 \par
+00021 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h:\par
+00022 \par
+00023 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h:\par
+00024 \par
+00025 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h:\par
+00026 \par
+00027 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h:\par
+00028 \par
+00029 C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h:\par
+00030 \par
+00031 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h:\par
+00032 \par
+00033 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h:\par
+00034 \par
+00035 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h:\par
+00036 \par
+00037 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h:\par
+00038 \par
+00039 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h:\par
+00040 \par
+00041 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h:\par
+00042 \par
+00043 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h:\par
+00044 \par
+00045 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h:\par
+00046 \par
+00047 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\math.h:\par
+00048 \par
+00049 .././MCP23017_driver.h:\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/SCD41.d File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/SCD41.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/SCD41.d}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SCD41.d\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/SCD41.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/SCD41.d}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 SCD41.d SCD41.o: .././SCD41.c .././SCD41.h \\\par
+00002  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h \\\par
+00003  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h \\\par
+00004  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h \\\par
+00005  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h \\\par
+00006  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h \\\par
+00007  C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h \\\par
+00008  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h \\\par
+00009  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h \\\par
+00010  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h \\\par
+00011  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h \\\par
+00012  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h \\\par
+00013  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h \\\par
+00014  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h \\\par
+00015  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h \\\par
+00016  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\math.h \\\par
+00017  .././LCD_DOG_avr128_driver.h \\\par
+00018  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdio.h \\\par
+00019  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdarg.h \\\par
+00020  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stddef.h\par
+00021 \par
+00022 .././SCD41.h:\par
+00023 \par
+00024 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h:\par
+00025 \par
+00026 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h:\par
+00027 \par
+00028 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h:\par
+00029 \par
+00030 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h:\par
+00031 \par
+00032 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h:\par
+00033 \par
+00034 C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h:\par
+00035 \par
+00036 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h:\par
+00037 \par
+00038 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h:\par
+00039 \par
+00040 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h:\par
+00041 \par
+00042 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h:\par
+00043 \par
+00044 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h:\par
+00045 \par
+00046 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h:\par
+00047 \par
+00048 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h:\par
+00049 \par
+00050 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h:\par
+00051 \par
+00052 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\math.h:\par
+00053 \par
+00054 .././LCD_DOG_avr128_driver.h:\par
+00055 \par
+00056 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdio.h:\par
+00057 \par
+00058 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdarg.h:\par
+00059 \par
+00060 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stddef.h:\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/USART3.d File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/USART3.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/USART3.d}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+USART3.d\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/USART3.d}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/Debug/USART3.d}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 USART3.d USART3.o: .././USART3.c \\\par
+00002  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h \\\par
+00003  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h \\\par
+00004  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h \\\par
+00005  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h \\\par
+00006  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h \\\par
+00007  C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h \\\par
+00008  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h \\\par
+00009  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h \\\par
+00010  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h \\\par
+00011  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h \\\par
+00012  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h \\\par
+00013  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h \\\par
+00014  c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h \\\par
+00015  .././USART3.h\par
+00016 \par
+00017 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h:\par
+00018 \par
+00019 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h:\par
+00020 \par
+00021 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\inttypes.h:\par
+00022 \par
+00023 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\lib\\gcc\\avr\\5.4.0\\include\\stdint.h:\par
+00024 \par
+00025 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\stdint.h:\par
+00026 \par
+00027 C:\\Program\\ Files\\ (x86)\\Atmel\\Studio\\7.0\\Packs\\atmel\\AVR-Dx_DFP\\1.6.76\\include/avr/ioavr128db48.h:\par
+00028 \par
+00029 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h:\par
+00030 \par
+00031 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h:\par
+00032 \par
+00033 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h:\par
+00034 \par
+00035 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\xmega.h:\par
+00036 \par
+00037 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h:\par
+00038 \par
+00039 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h:\par
+00040 \par
+00041 c:\\program\\ files\\ (x86)\\atmel\\studio\\7.0\\toolchain\\avr8\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h:\par
+00042 \par
+00043 .././USART3.h:\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.c File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.c}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <avr/io.h>}\par
+{\f2 #include <stdio.h>}\par
+{\f2 #include "LCD_DOG_avr128_driver.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for LCD_DOG_avr128_driver.c:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b lcd_spi_transmit_CMD} (unsigned char cmd)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b lcd_spi_transmit_DATA} (unsigned char cmd)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b init_spi_lcd} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b init_lcd_dog} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b delay_40mS} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b delay_30uS} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b update_lcd_dog} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v delay_30uS\:LCD_DOG_avr128_driver.c}
+{\xe \v LCD_DOG_avr128_driver.c\:delay_30uS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void delay_30uS (void )}}
+\par
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 148} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_ac2b72bb1def48c87ee1aa8bc2179c1d2_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v delay_40mS\:LCD_DOG_avr128_driver.c}
+{\xe \v LCD_DOG_avr128_driver.c\:delay_40mS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void delay_40mS (void )}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 141} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_aa5dac98c21e498cc75c692166004ea56_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v init_lcd_dog\:LCD_DOG_avr128_driver.c}
+{\xe \v LCD_DOG_avr128_driver.c\:init_lcd_dog}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void init_lcd_dog (void )}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 86} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_a4c0ca25c2b5e3649f7f1ba5e2af92746_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_a4c0ca25c2b5e3649f7f1ba5e2af92746_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v init_spi_lcd\:LCD_DOG_avr128_driver.c}
+{\xe \v LCD_DOG_avr128_driver.c\:init_spi_lcd}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void init_spi_lcd (void )}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 52} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_a0f268347583db61f04a11de5afafb08b_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v lcd_spi_transmit_CMD\:LCD_DOG_avr128_driver.c}
+{\xe \v LCD_DOG_avr128_driver.c\:lcd_spi_transmit_CMD}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void lcd_spi_transmit_CMD (unsigned char  {\i cmd})}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 8} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_a205b93dbe1746b39bd336433477288e6_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v lcd_spi_transmit_DATA\:LCD_DOG_avr128_driver.c}
+{\xe \v LCD_DOG_avr128_driver.c\:lcd_spi_transmit_DATA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void lcd_spi_transmit_DATA (unsigned char  {\i cmd})}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 30} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_adec1609f42ca19fece94c0c1f71b3996_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v update_lcd_dog\:LCD_DOG_avr128_driver.c}
+{\xe \v LCD_DOG_avr128_driver.c\:update_lcd_dog}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void update_lcd_dog (void )}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 158} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_a130db492e8cd5bb6382659d6279ba4bb_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8c_a130db492e8cd5bb6382659d6279ba4bb_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+LCD_DOG_avr128_driver.c\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.c}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #include <avr/io.h>}\par
+00002 {\cf21 #include <stdio.h>}\par
+00003 {\cf21 #include "LCD_DOG_avr128_driver.h"}\par
+00004 \par
+00005 \par
+00007 \par
+00008 {\cf18 void} lcd_spi_transmit_CMD ({\cf18 unsigned} {\cf18 char} cmd) \{\par
+00009     {\cf17 volatile} uint8_t read;\par
+00010     {\cf20 //RS = 0 for command}\par
+00011     PORTC.OUT = 0x00;\par
+00012     \par
+00013     {\cf20 //select CS_bar}\par
+00014     PORTA.OUT &= ~(1 << 7);\par
+00015     \par
+00016     {\cf20 //start transmission of data}\par
+00017     SPI0.DATA = cmd;\par
+00018     \par
+00019     {\cf20 /*wait for transmission to be complete*/}\par
+00020     {\cf19 while}(!(SPI0.INTFLAGS & SPI_IF_bm))\{\};\par
+00021 \par
+00022     {\cf20 //deselect CS_bar}\par
+00023     PORTA.OUT |= (1 << 7);\par
+00024     \par
+00025     {\cf20 //clear IF flag}\par
+00026     SPI0.INTFLAGS = SPI_IF_bm;\par
+00027     read = SPI0.DATA;\par
+00028 \}\par
+00029 \par
+00030 {\cf18 void} lcd_spi_transmit_DATA ({\cf18 unsigned} {\cf18 char} cmd) \{\par
+00031     {\cf17 volatile} uint8_t read;\par
+00032     {\cf20 //RS = 1 for data}\par
+00033     PORTC.OUT = (1 << 0);\par
+00034     \par
+00035     {\cf20 //select CS_bar}\par
+00036     PORTA.OUT &= ~(1 << 7);\par
+00037     \par
+00038     {\cf20 //start transmission of data}\par
+00039     SPI0.DATA = cmd;\par
+00040     \par
+00041     {\cf20 /*wait for transmission to be complete*/}\par
+00042     {\cf19 while}(!(SPI0.INTFLAGS & SPI_IF_bm))\{\};\par
+00043 \par
+00044     {\cf20 //deselect CS_bar}\par
+00045     PORTA.OUT |= (1 << 7);\par
+00046     \par
+00047     {\cf20 //clear IF flag}\par
+00048     SPI0.INTFLAGS = SPI_IF_bm;\par
+00049     read = SPI0.DATA;\par
+00050 \}\par
+00051 \par
+00052 {\cf18 void} init_spi_lcd ({\cf18 void}) \{\par
+00053     {\cf20 /*configure the location of the SPI pins*/}\par
+00054     \par
+00055     {\cf20 //PA4 SPI0 MOSI configured as an output}\par
+00056     {\cf20 //PA5 SPIO MISO configured as an input}\par
+00057     {\cf20 //PA6 SCK configured as an output}\par
+00058     {\cf20 //PA7 set as slave select}\par
+00059     PORTA.DIR = (1 << 4)|(1 << 6)|(1<<7);\par
+00060     \par
+00061 \par
+00062     {\cf20 //PA7 SS_bar set to idle at logic 1}\par
+00063     PORTA.OUT = (1 << 7);\par
+00064     \par
+00065     \par
+00066     {\cf20 /*select SPI master by writing to master/slave bit}\par
+00067 {\cf20     in CTRLA, clock speed by writing to PRESC and CLK2X }\par
+00068 {\cf20     bit and the order of transmission of the data with }\par
+00069 {\cf20     the DORD bit*/}\par
+00070     SPI0.CTRLA =  SPI_MASTER_bm | SPI_CLK2X_bm;\par
+00071     \par
+00072     {\cf20 /*SPI mode 3 for the DOG LCD*/}\par
+00073     {\cf20 /*SPI MODE 0 and slave select on master disabled*/}\par
+00074     SPI0.CTRLB = SPI_SSD_bm | 0x03 ;\par
+00075     \par
+00076     {\cf20 /*Enable SPI*/}\par
+00077     SPI0.CTRLA |= SPI_ENABLE_bm;\par
+00078     \par
+00079     {\cf20 /*PC0 for RS of LCD*/}\par
+00080     PORTC.DIR = (1 << 0);\par
+00081     PORTC.OUT = 0x00;       {\cf20 //RS = 0 for command}\par
+00082     \par
+00083 \}\par
+00084 \par
+00085 \par
+00086 {\cf18 void} init_lcd_dog ({\cf18 void}) \{\par
+00087 \par
+00088 init_spi_lcd();     {\cf20 //Initialize mcu for LCD SPI}\par
+00089 \par
+00090 {\cf20 //start_dly_40ms:}\par
+00091 delay_40mS();    {\cf20 //startup delay.}\par
+00092 \par
+00093 \par
+00094 {\cf20 //func_set1:}\par
+00095 lcd_spi_transmit_CMD(0x39);   {\cf20 // sedn function set #1}\par
+00096 delay_30uS();   {\cf20 //delay for command to be processed}\par
+00097 \par
+00098 \par
+00099 {\cf20 //func_set2:}\par
+00100 lcd_spi_transmit_CMD(0x39); {\cf20 //send fuction set #2}\par
+00101 delay_30uS();   {\cf20 //delay for command to be processed}\par
+00102 \par
+00103 \par
+00104 {\cf20 //bias_set:}\par
+00105 lcd_spi_transmit_CMD(0x1E); {\cf20 //set bias value.}\par
+00106 delay_30uS();   {\cf20 //delay for command to be processed}\par
+00107 \par
+00108 \par
+00109 {\cf20 //power_ctrl:}\par
+00110 lcd_spi_transmit_CMD(0x55); {\cf20 //~ 0x50 nominal for 5V}\par
+00111 {\cf20 //~ 0x55 for 3.3V (delicate adjustment).}\par
+00112 delay_30uS();   {\cf20 //delay for command to be processed}\par
+00113 \par
+00114 \par
+00115 {\cf20 //follower_ctrl:}\par
+00116 lcd_spi_transmit_CMD(0x6C); {\cf20 //follower mode on...}\par
+00117 delay_40mS();   {\cf20 //delay for command to be processed}\par
+00118 \par
+00119 \par
+00120 {\cf20 //contrast_set:}\par
+00121 lcd_spi_transmit_CMD(0x7F); {\cf20 //~ 77 for 5V, ~ 7F for 3.3V}\par
+00122 delay_30uS();   {\cf20 //delay for command to be processed}\par
+00123 \par
+00124 \par
+00125 {\cf20 //display_on:}\par
+00126 lcd_spi_transmit_CMD(0x0c); {\cf20 //display on, cursor off, blink off}\par
+00127 delay_30uS();   {\cf20 //delay for command to be processed}\par
+00128 \par
+00129 \par
+00130 {\cf20 //clr_display:}\par
+00131 lcd_spi_transmit_CMD(0x01); {\cf20 //clear display, cursor home}\par
+00132 delay_30uS();   {\cf20 //delay for command to be processed}\par
+00133 \par
+00134 \par
+00135 {\cf20 //entry_mode:}\par
+00136 lcd_spi_transmit_CMD(0x06); {\cf20 //clear display, cursor home}\par
+00137 delay_30uS();   {\cf20 //delay for command to be processed}\par
+00138 \}\par
+00139 \par
+00140 \par
+00141 {\cf18 void} delay_40mS({\cf18 void}) \{\par
+00142 {\cf18 int} i;\par
+00143 {\cf19 for} ({\cf18 int} n = 40; n > 0; n--)\par
+00144 {\cf19 for} (i = 0; i < 800; i++)\par
+00145 __asm({\cf22 "nop"});\par
+00146 \}\par
+00147 \par
+00148 {\cf18 void} delay_30uS({\cf18 void}) \{\par
+00149 {\cf18 int} i;\par
+00150 {\cf19 for} ({\cf18 int} n = 1; n > 0; n--)\par
+00151 {\cf19 for} (i = 0; i < 2; i++)\par
+00152 __asm({\cf22 "nop"});\par
+00153 \}\par
+00154 \par
+00155 \par
+00156 {\cf20 // Updates the LCD display lines 1, 2, and 3, using the}\par
+00157 {\cf20 // contents of dsp_buff_1, dsp_buff_2, and dsp_buff_3, respectively.}\par
+00158 {\cf18 void} update_lcd_dog({\cf18 void}) \{\par
+00159 \par
+00160 init_spi_lcd();     {\cf20 //init SPI port for LCD.}\par
+00161 \par
+00162 {\cf20 // send line 1 to the LCD module.}\par
+00163 lcd_spi_transmit_CMD(0x80); {\cf20 //init DDRAM addr-ctr}\par
+00164 delay_30uS();\par
+00165 {\cf19 for} ({\cf18 int} i = 0; i < 16; i++) \{\par
+00166 lcd_spi_transmit_DATA(dsp_buff1[i]);\par
+00167 delay_30uS();\par
+00168 \}\par
+00169 \par
+00170 {\cf20 // send line 2 to the LCD module.}\par
+00171 lcd_spi_transmit_CMD(0x90); {\cf20 //init DDRAM addr-ctr}\par
+00172 delay_30uS();\par
+00173 {\cf19 for} ({\cf18 int} i = 0; i < 16; i++) \{\par
+00174 lcd_spi_transmit_DATA(dsp_buff2[i]);\par
+00175 delay_30uS();\par
+00176 \}\par
+00177 \par
+00178 {\cf20 // send line 3 to the LCD module.}\par
+00179 lcd_spi_transmit_CMD(0xA0); {\cf20 //init DDRAM addr-ctr}\par
+00180 delay_30uS();\par
+00181 {\cf19 for} ({\cf18 int} i = 0; i < 16; i++) \{\par
+00182 lcd_spi_transmit_DATA(dsp_buff3[i]);\par
+00183 delay_30uS();\par
+00184 \}\par
+00185 \}\par
+00186 \par
+00187 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.h File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.h}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.h}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <avr/io.h>}\par
+{\f2 #include <stdio.h>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for LCD_DOG_avr128_driver.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This graph shows which files directly or indirectly include this file:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h__dep__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b lcd_spi_transmit_CMD} (unsigned char cmd)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b lcd_spi_transmit_DATA} (unsigned char cmd)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b init_spi_lcd} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b init_lcd_dog} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b delay_40mS} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b delay_30uS} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b update_lcd_dog} (void)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variables\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t {\b read}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+char {\b dsp_buff1} [17]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+char {\b dsp_buff2} [17]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+char {\b dsp_buff3} [17]\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v delay_30uS\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:delay_30uS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void delay_30uS (void )}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 148} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_ac2b72bb1def48c87ee1aa8bc2179c1d2_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v delay_40mS\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:delay_40mS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void delay_40mS (void )}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 141} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_aa5dac98c21e498cc75c692166004ea56_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v init_lcd_dog\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:init_lcd_dog}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void init_lcd_dog (void )}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 86} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_a4c0ca25c2b5e3649f7f1ba5e2af92746_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_a4c0ca25c2b5e3649f7f1ba5e2af92746_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v init_spi_lcd\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:init_spi_lcd}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void init_spi_lcd (void )}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 52} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_a0f268347583db61f04a11de5afafb08b_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v lcd_spi_transmit_CMD\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:lcd_spi_transmit_CMD}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void lcd_spi_transmit_CMD (unsigned char  {\i cmd})}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 8} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_a205b93dbe1746b39bd336433477288e6_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v lcd_spi_transmit_DATA\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:lcd_spi_transmit_DATA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void lcd_spi_transmit_DATA (unsigned char  {\i cmd})}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 30} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_adec1609f42ca19fece94c0c1f71b3996_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v update_lcd_dog\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:update_lcd_dog}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void update_lcd_dog (void )}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 158} of file {\b LCD_DOG_avr128_driver.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_a130db492e8cd5bb6382659d6279ba4bb_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_l_c_d___d_o_g__avr128__driver_8h_a130db492e8cd5bb6382659d6279ba4bb_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variable Documentation\par
+\pard\plain 
+{\xe \v dsp_buff1\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:dsp_buff1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char dsp_buff1[17]}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 38} of file {\b LCD_DOG_avr128_driver.h}.}\par
+}
+{\xe \v dsp_buff2\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:dsp_buff2}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char dsp_buff2[17]}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 39} of file {\b LCD_DOG_avr128_driver.h}.}\par
+}
+{\xe \v dsp_buff3\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:dsp_buff3}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char dsp_buff3[17]}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 40} of file {\b LCD_DOG_avr128_driver.h}.}\par
+}
+{\xe \v read\:LCD_DOG_avr128_driver.h}
+{\xe \v LCD_DOG_avr128_driver.h\:read}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t read}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 35} of file {\b LCD_DOG_avr128_driver.h}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+LCD_DOG_avr128_driver.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.h}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/LCD_DOG_avr128_driver.h}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf20 /***************************************************************************}\par
+00002 {\cf20 ;*}\par
+00003 {\cf20 ;* " LCD_DOG_avr128_driver.h" - DOG LCD driver}\par
+00004 {\cf20 ;*}\par
+00005 {\cf20 ;* Description: DOG LCD driver}\par
+00006 {\cf20 ;*}\par
+00007 {\cf20 ;* Author:          Keerthi Kumanan}\par
+00008 {\cf20 ;* Version:         0.1}\par
+00009 {\cf20 ;* Last updated:        101221}\par
+00010 {\cf20 ;* Target:          AVR128DB48}\par
+00011 {\cf20 ;*}\par
+00012 {\cf20 ***************************************************************************/}\par
+00013 \par
+00014 \par
+00015 {\cf20 /* modified p8_1.c:}\par
+00016 {\cf20 *}\par
+00017 {\cf20 * SPI0 is configured as SPI with hardware Slave Select.}\par
+00018 {\cf20 * Clock rate is set to 2 MHz, half of the main clock.}\par
+00019 {\cf20 * Polarity/Phase are 1, 1 to communicate with DOG LCD}\par
+00020 {\cf20 *}\par
+00021 {\cf20 * PA4  PAD0  MOSI}\par
+00022 {\cf20 * PA6  PAD1  SCK}\par
+00023 {\cf20 * PA7 PAD2  /SS       hardware controlled}\par
+00024 {\cf20 * PA5  PAD3  MISO}\par
+00025 {\cf20 *}\par
+00026 {\cf20 * PC0  RS LCD   // Register select for LCD}\par
+00027 {\cf20 *}\par
+00028 {\cf20 * Tested with Atmel Studio 7}\par
+00029 {\cf20 */}\par
+00030 \par
+00031 {\cf21 #include <avr/io.h>}\par
+00032 {\cf21 #include <stdio.h>}\par
+00033 \par
+00034 {\cf20 //junk}\par
+00035 uint8_t read;\par
+00036 \par
+00037 {\cf20 // Display buffer for DOG LCD using sprintf()}\par
+00038 {\cf18 char} dsp_buff1[17];\par
+00039 {\cf18 char} dsp_buff2[17];\par
+00040 {\cf18 char} dsp_buff3[17];\par
+00041 \par
+00042 \par
+00043 \par
+00044 {\cf18 void} lcd_spi_transmit_CMD ({\cf18 unsigned} {\cf18 char} cmd);\par
+00045 \par
+00046 \par
+00047 {\cf18 void} lcd_spi_transmit_DATA ({\cf18 unsigned} {\cf18 char} cmd);\par
+00048 \par
+00049 \par
+00050 {\cf18 void} init_spi_lcd ({\cf18 void});\par
+00051 \par
+00052 \par
+00053 {\cf18 void} init_lcd_dog ({\cf18 void});\par
+00054 \par
+00055 \par
+00056 {\cf18 void} delay_40mS({\cf18 void});\par
+00057 \par
+00058 \par
+00059 {\cf18 void} delay_30uS({\cf18 void});\par
+00060 \par
+00061 \par
+00062 {\cf18 void} update_lcd_dog({\cf18 void});\par
+00063 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/main.c File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/main.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/main.c}
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <avr/io.h>}\par
+{\f2 #include <util/delay.h>}\par
+{\f2 #include "LCD_DOG_avr128_driver.h"}\par
+{\f2 #include "SCD41.h"}\par
+{\f2 #include "USART3.h"}\par
+{\f2 #include "MCP23017_driver.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for main.c:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "main_8c__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b F_CPU}\~ 4000000\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b bargraph} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b USART_print} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macro Definition Documentation\par
+\pard\plain 
+{\xe \v F_CPU\:main.c}
+{\xe \v main.c\:F_CPU}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define F_CPU\~ 4000000}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 17} of file {\b main.c}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v bargraph\:main.c}
+{\xe \v main.c\:bargraph}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void bargraph ()}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 59} of file {\b main.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "main_8c_a4633803831503531b3da9937e4b0e50d_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "main_8c_a4633803831503531b3da9937e4b0e50d_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v main\:main.c}
+{\xe \v main.c\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (void )}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 28} of file {\b main.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v USART_print\:main.c}
+{\xe \v main.c\:USART_print}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void USART_print ()}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 94} of file {\b main.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "main_8c_a3231e8b532df090048cef3ba8361895f_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "main_8c_a3231e8b532df090048cef3ba8361895f_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+main.c\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/main.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/main.c}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf20 /***************************************************************************}\par
+00002 {\cf20 ;*}\par
+00003 {\cf20 ;* Title: "main.c" - SCD41 measurement main file}\par
+00004 {\cf20 ;* Author: Keerthi Kumanan}\par
+00005 {\cf20 ;* Version: 1.0}\par
+00006 {\cf20 ;* Last updated: 04/14/2022}\par
+00007 {\cf20 ;* Target: AVR128DB48}\par
+00008 {\cf20 ;*}\par
+00009 {\cf20 ;* DESCRIPTION}\par
+00010 {\cf20 ;*}\par
+00011 {\cf20 ;*}\par
+00012 {\cf20 ;* VERSION HISTORY}\par
+00013 {\cf20 ;* 1.0 Original version}\par
+00014 {\cf20 ;**************************************************************************/}\par
+00015 \par
+00016 \par
+00017 {\cf21 #define F_CPU 4000000}\par
+00018 {\cf21 #include <avr/io.h>}\par
+00019 {\cf21 #include <util/delay.h>}\par
+00020 {\cf21 #include "LCD_DOG_avr128_driver.h"}\par
+00021 {\cf21 #include "SCD41.h"}\par
+00022 {\cf21 #include "USART3.h"}\par
+00023 {\cf21 #include "MCP23017_driver.h"}\par
+00024 \par
+00025 {\cf18 void} bargraph();\par
+00026 {\cf18 void} USART_print();\par
+00027 \par
+00028 {\cf18 int} main({\cf18 void})\par
+00029 \{\par
+00030 \par
+00031 \par
+00032     init_lcd_dog();\par
+00033     UART_init(9600, 8, {\cf23 'N'});  {\cf20 /* Set the baudrate to 19,200 bps using a 3.6864MHz crystal */}\par
+00034 \par
+00035     {\cf19 while} (1)\par
+00036     \{\par
+00037         I2C0_SCD40_init();\par
+00038         \par
+00039         SCD40_MEASUREMENT();\par
+00040     \par
+00041         conversion();\par
+00042     \par
+00043         sprintf(dsp_buff1, {\cf22 "CO2: %d "}, result_final[0]);\par
+00044         sprintf(dsp_buff2, {\cf22 "Temp: %d "}, result_final[1]);\par
+00045         sprintf(dsp_buff3, {\cf22 "Hum: %d "}, result_final[2]);\par
+00046         \par
+00047         update_lcd_dog();\par
+00048         \par
+00049         bargraph();\par
+00050         \par
+00051 \par
+00052         \par
+00053         \par
+00054         USART_print();\par
+00055         \par
+00056     \}\par
+00057 \}\par
+00058 \par
+00059 {\cf18 void} bargraph()\{\par
+00060     I2C0_MCP23017_init();\par
+00061     MCP23017_I2C0_init();\par
+00062         \par
+00063     {\cf19 if}(result_final[0] >= 400 && result_final[0] < 500 )\{\par
+00064         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x7F);\par
+00065     \}\par
+00066     {\cf19 else} {\cf19 if}(result_final[0] >= 500 && result_final[0] < 600)\{\par
+00067         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x3F);\par
+00068     \}\par
+00069     {\cf19 else} {\cf19 if}(result_final[0] >= 600 && result_final[0] < 700)\{\par
+00070         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x1F);\par
+00071     \}\par
+00072     {\cf19 else} {\cf19 if}(result_final[0] >= 700 && result_final[0] < 800)\{\par
+00073         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x0F);\par
+00074     \}\par
+00075     {\cf19 else} {\cf19 if}(result_final[0] >= 800 && result_final[0] < 900)\{\par
+00076         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x07);\par
+00077     \}\par
+00078     {\cf19 else} {\cf19 if}(result_final[0] >= 900 && result_final[0] < 1000)\{\par
+00079         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x03);\par
+00080     \}\par
+00081     {\cf19 else} {\cf19 if}(result_final[0] >= 1000 && result_final[0] < 1100)\{\par
+00082         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x03);\par
+00083     \}\par
+00084     {\cf19 else} {\cf19 if}(result_final[0] >= 1100 && result_final[0] < 1200)\{\par
+00085         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x01);\par
+00086     \}\par
+00087     {\cf19 else} \{\par
+00088         MCP23017_I2C_write(WRITE_opcode, OLATBaddr_b1, 0x00);\par
+00089     \}\par
+00090         \par
+00091 \}\par
+00092 \par
+00093 \par
+00094 {\cf18 void} USART_print()\{\par
+00095     _delay_ms(1000);\par
+00096     {\cf20 //USART3 transmit}\par
+00097     {\cf19 for}({\cf18 int} i = 0; i < 17; i++)\{\par
+00098          UART_SendChar(dsp_buff1[i]);\par
+00099     \par
+00100     \}\par
+00101     \par
+00102          UART_SendChar({\cf23 '\\r'});\par
+00103          UART_SendChar({\cf23 '\\n'});\par
+00104     \par
+00105     {\cf19 for}({\cf18 int} i = 0; i < 17; i++)\{\par
+00106          UART_SendChar(dsp_buff2[i]);\par
+00107     \par
+00108     \}\par
+00109     \par
+00110          UART_SendChar({\cf23 '\\r'});\par
+00111          UART_SendChar({\cf23 '\\n'});\par
+00112     \par
+00113     {\cf19 for}({\cf18 int} i = 0; i < 17; i++)\{\par
+00114          UART_SendChar(dsp_buff3[i]);\par
+00115     \par
+00116     \}\par
+00117     \par
+00118          UART_SendChar({\cf23 '\\r'});\par
+00119          UART_SendChar({\cf23 '\\n'});\par
+00120     \par
+00121 \}\par
+00122 \par
+00123 \par
+00124 \par
+00125 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017.c File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017.c}
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <avr/io.h>}\par
+{\f2 #include <util/delay.h>}\par
+{\f2 #include "MCP23017_driver.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for MCP23017.c:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017_8c__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b F_CPU}\~ 4000000\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C0_MCP23017_init} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MCP23017_I2C_write} (uint8_t opcode, uint8_t slave_register, uint8_t {\b data})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MCP23017_I2C0_init} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macro Definition Documentation\par
+\pard\plain 
+{\xe \v F_CPU\:MCP23017.c}
+{\xe \v MCP23017.c\:F_CPU}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define F_CPU\~ 4000000}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 1} of file {\b MCP23017.c}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v I2C0_MCP23017_init\:MCP23017.c}
+{\xe \v MCP23017.c\:I2C0_MCP23017_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C0_MCP23017_init (void )}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 7} of file {\b MCP23017.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017_8c_a7573d63eaadfb4176eebde2e5125018d_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v MCP23017_I2C0_init\:MCP23017.c}
+{\xe \v MCP23017.c\:MCP23017_I2C0_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MCP23017_I2C0_init (void )}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 46} of file {\b MCP23017.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017_8c_ab1a3017e84ab9050cc3edce82148ac06_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017_8c_ab1a3017e84ab9050cc3edce82148ac06_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v MCP23017_I2C_write\:MCP23017.c}
+{\xe \v MCP23017.c\:MCP23017_I2C_write}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MCP23017_I2C_write (uint8_t  {\i opcode}, uint8_t  {\i slave_register}, uint8_t  {\i data})}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 22} of file {\b MCP23017.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017_8c_afbc4af4e845ff996dadce78e31358c32_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+MCP23017.c\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017.c}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #define F_CPU 4000000}\par
+00002 {\cf21 #include <avr/io.h>}\par
+00003 {\cf21 #include <util/delay.h>}\par
+00004 {\cf21 #include "MCP23017_driver.h"}\par
+00005 \par
+00006 \par
+00007 {\cf18 void} I2C0_MCP23017_init({\cf18 void})\{\par
+00008     {\cf20 //configure PA2 (SDA)  PA3 (SCl) as inputs}\par
+00009     PORTA.DIR = 0x00;\par
+00010     \par
+00011     {\cf20 //Master Baud rate set to 0}\par
+00012     TWI0.MBAUD = 0;\par
+00013     \par
+00014     {\cf20 //Enable the TWI master}\par
+00015     TWI0.MCTRLA = TWI_ENABLE_bm;\par
+00016     \par
+00017     {\cf20 //Forcing Bus state to Idle}\par
+00018     TWI0.MSTATUS = TWI_BUSSTATE_IDLE_gc;\par
+00019 \}\par
+00020 \par
+00021 \par
+00022 {\cf18 void} MCP23017_I2C_write(uint8_t opcode, uint8_t slave_register, uint8_t data)\{\par
+00023     \par
+00024     {\cf20 //Master starts performing a bus transaction}\par
+00025     {\cf20 //when then the master address register is written}\par
+00026     TWI0.MADDR = opcode;\par
+00027     \par
+00028     {\cf20 //wait for data packet to be transmitted}\par
+00029     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00030     \par
+00031     TWI0.MDATA = slave_register;\par
+00032     \par
+00033     {\cf20 //wait for data packet to be transmitted}\par
+00034     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00035     \par
+00036     TWI0.MDATA = data;\par
+00037     \par
+00038     {\cf20 //wait for data packet to be transmitted}\par
+00039     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00040     \par
+00041     {\cf20 //complete transaction by issuing a stop condition}\par
+00042     TWI0.MCTRLB = TWI_MCMD_gm;\par
+00043     \par
+00044 \}\par
+00045 \par
+00046 {\cf18 void}  MCP23017_I2C0_init({\cf18 void})\{\par
+00047     {\cf20 //split into two 8 bit general purpose IO pins}\par
+00048     MCP23017_I2C_write(WRITE_opcode, IOCONaddr_b0, 0x80);\par
+00049     {\cf20 //Set GPA as outputs}\par
+00050     MCP23017_I2C_write(WRITE_opcode, IODIRAaddr_b1, 0x00);\par
+00051     {\cf20 //Set GPB as outputs}\par
+00052     MCP23017_I2C_write(WRITE_opcode, IODIRBaddr_b1, 0x00);\par
+00053     {\cf20 //Enable internal pullup resistors on all the GPA pins}\par
+00054     {\cf20 //MCP23017_I2C_write(WRITE_opcode, GPPUAaddr_b1, 0xFF);}\par
+00055 \}\par
+00056 \par
+00057 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017_driver.h File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017_driver.h}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017_driver.h}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <avr/io.h>}\par
+{\f2 #include <util/delay.h>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for MCP23017_driver.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017__driver_8h__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This graph shows which files directly or indirectly include this file:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017__driver_8h__dep__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b F_CPU}\~ 4000000\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b IOCONaddr_b0}\~ 0x0A\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b IOCONaddr_b1}\~ 0x05\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b IODIRAaddr_b1}\~ 0x00\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b IODIRBaddr_b1}\~ 0x10\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPPUAaddr_b1}\~ 0x06\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b GPIOaddr_b1}\~ 0x09\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b OLATAaddr_b1}\~ 0x0A\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b OLATBaddr_b1}\~ 0x1A\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b WRITE_opcode}\~ 0x40\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b READ_opcode}\~ 0x41\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C0_MCP23017_init} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MCP23017_I2C_write} (uint8_t opcode, uint8_t slave_register, uint8_t {\b data})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MCP23017_I2C0_init} (void)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macro Definition Documentation\par
+\pard\plain 
+{\xe \v F_CPU\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:F_CPU}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define F_CPU\~ 4000000}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 19} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v GPIOaddr_b1\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:GPIOaddr_b1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPIOaddr_b1\~ 0x09}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 29} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v GPPUAaddr_b1\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:GPPUAaddr_b1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define GPPUAaddr_b1\~ 0x06}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 28} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v IOCONaddr_b0\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:IOCONaddr_b0}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define IOCONaddr_b0\~ 0x0A}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 24} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v IOCONaddr_b1\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:IOCONaddr_b1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define IOCONaddr_b1\~ 0x05}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 25} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v IODIRAaddr_b1\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:IODIRAaddr_b1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define IODIRAaddr_b1\~ 0x00}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 26} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v IODIRBaddr_b1\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:IODIRBaddr_b1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define IODIRBaddr_b1\~ 0x10}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 27} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v OLATAaddr_b1\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:OLATAaddr_b1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define OLATAaddr_b1\~ 0x0A}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 30} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v OLATBaddr_b1\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:OLATBaddr_b1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define OLATBaddr_b1\~ 0x1A}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 31} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v READ_opcode\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:READ_opcode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define READ_opcode\~ 0x41}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 33} of file {\b MCP23017_driver.h}.}\par
+}
+{\xe \v WRITE_opcode\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:WRITE_opcode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define WRITE_opcode\~ 0x40}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 32} of file {\b MCP23017_driver.h}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v I2C0_MCP23017_init\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:I2C0_MCP23017_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C0_MCP23017_init (void )}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 7} of file {\b MCP23017.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017__driver_8h_a7573d63eaadfb4176eebde2e5125018d_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v MCP23017_I2C0_init\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:MCP23017_I2C0_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MCP23017_I2C0_init (void )}}
+\par
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 46} of file {\b MCP23017.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017__driver_8h_ab1a3017e84ab9050cc3edce82148ac06_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017__driver_8h_ab1a3017e84ab9050cc3edce82148ac06_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v MCP23017_I2C_write\:MCP23017_driver.h}
+{\xe \v MCP23017_driver.h\:MCP23017_I2C_write}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MCP23017_I2C_write (uint8_t  {\i opcode}, uint8_t  {\i slave_register}, uint8_t  {\i data})}}
+\par
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 22} of file {\b MCP23017.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_m_c_p23017__driver_8h_afbc4af4e845ff996dadce78e31358c32_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+MCP23017_driver.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017_driver.h}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/MCP23017_driver.h}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf20 /***************************************************************************}\par
+00002 {\cf20 ;*}\par
+00003 {\cf20 ;* Title: MCP23017.h}\par
+00004 {\cf20 ;* Author: Keerthi Kumanan}\par
+00005 {\cf20 ;* Version: 1.0}\par
+00006 {\cf20 ;* Last updated: 04/14/2022}\par
+00007 {\cf20 ;* Target: AVR128DB48}\par
+00008 {\cf20 ;*}\par
+00009 {\cf20 ;* DESCRIPTION}\par
+00010 {\cf20 ;* Tests the MCP23017_I2C0_init, MCP23017_I2C_write, and I2C0_MCP23017_init}\par
+00011 {\cf20 ;* functions}\par
+00012 {\cf20 ;*}\par
+00013 {\cf20 ;*}\par
+00014 {\cf20 ;* VERSION HISTORY}\par
+00015 {\cf20 ;* 1.0 Original version}\par
+00016 {\cf20 ;**************************************************************************/}\par
+00017 \par
+00018 \par
+00019 {\cf21 #define F_CPU 4000000}\par
+00020 {\cf21 #include <avr/io.h>}\par
+00021 {\cf21 #include <util/delay.h>}\par
+00022 \par
+00023 \par
+00024 {\cf21 #define IOCONaddr_b0    0x0A}\par
+00025 {\cf21 #define IOCONaddr_b1    0x05}\par
+00026 {\cf21 #define IODIRAaddr_b1   0x00}\par
+00027 {\cf21 #define IODIRBaddr_b1   0x10}\par
+00028 {\cf21 #define GPPUAaddr_b1    0x06}\par
+00029 {\cf21 #define GPIOaddr_b1     0x09}\par
+00030 {\cf21 #define OLATAaddr_b1    0x0A}\par
+00031 {\cf21 #define OLATBaddr_b1    0x1A}\par
+00032 {\cf21 #define WRITE_opcode    0x40}\par
+00033 {\cf21 #define READ_opcode     0x41}\par
+00034 \par
+00035 \par
+00036 {\cf20 /***************************************************************************}\par
+00037 {\cf20 ;*}\par
+00038 {\cf20 ;* I2C0_MCP23017_init - title}\par
+00039 {\cf20 ;*}\par
+00040 {\cf20 ;* Description: Initializes the I2C module for the MCP23017 IO expander}\par
+00041 {\cf20 ;*}\par
+00042 {\cf20 ;* Author: Keerthi Kumanan}\par
+00043 {\cf20 ;* Version: 1.0}\par
+00044 {\cf20 ;* Last updated: 04/14/2022}\par
+00045 {\cf20 ;* Target: AVR128DB48}\par
+00046 {\cf20 ;* Parameters: none}\par
+00047 {\cf20 ;*}\par
+00048 {\cf20 ;* Returns: none}\par
+00049 {\cf20 ;*}\par
+00050 {\cf20 ;*}\par
+00051 {\cf20 ;**************************************************************************/}\par
+00052 {\cf18 void} I2C0_MCP23017_init({\cf18 void});\par
+00053 \par
+00054 \par
+00055 {\cf20 /***************************************************************************}\par
+00056 {\cf20 ;*}\par
+00057 {\cf20 ;* MCP23017_I2C_write - title}\par
+00058 {\cf20 ;*}\par
+00059 {\cf20 ;* Description: transfer one byte of data to the MCP23017 using I2C protocol}\par
+00060 {\cf20 ;*}\par
+00061 {\cf20 ;* Author: Keerthi Kumanan}\par
+00062 {\cf20 ;* Version: 1.0}\par
+00063 {\cf20 ;* Last updated: 04/14/2022}\par
+00064 {\cf20 ;* Target: AVR128DB48}\par
+00065 {\cf20 ;* Parameters: uint8_t opcode, uint8_t slave_register, uint8_t data}\par
+00066 {\cf20 ;*}\par
+00067 {\cf20 ;* Returns: none}\par
+00068 {\cf20 ;*}\par
+00069 {\cf20 ;*}\par
+00070 {\cf20 ;**************************************************************************/}\par
+00071 {\cf17 extern} {\cf18 void} MCP23017_I2C_write(uint8_t opcode, uint8_t slave_register, uint8_t data);\par
+00072 \par
+00073 {\cf20 /***************************************************************************}\par
+00074 {\cf20 ;*}\par
+00075 {\cf20 ;* MCP23017_I2C0_init - title}\par
+00076 {\cf20 ;*}\par
+00077 {\cf20 ;* Description: Initializes the ports on the MCP23017 IO expander for}\par
+00078 {\cf20 ;* reading in values from PORTA and output values to PORTB}\par
+00079 {\cf20 ;*}\par
+00080 {\cf20 ;* Author: Keerthi Kumanan}\par
+00081 {\cf20 ;* Version: 1.0}\par
+00082 {\cf20 ;* Last updated: 04/14/2022}\par
+00083 {\cf20 ;* Target: AVR128DB48}\par
+00084 {\cf20 ;* Parameters: none}\par
+00085 {\cf20 ;*}\par
+00086 {\cf20 ;* Returns: none}\par
+00087 {\cf20 ;*}\par
+00088 {\cf20 ;*}\par
+00089 {\cf20 ;**************************************************************************/}\par
+00090 {\cf18 void}  MCP23017_I2C0_init({\cf18 void});\par
+00091 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.c File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.c}
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "SCD41.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for SCD41.c:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8c__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C0_SCD40_init} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b SCD40_WRITE_COMMAND} (uint16_t command)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t * {\b SCD40_READ} (uint16_t command, uint8_t data_size)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t {\b POLL_READY_STATUS} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b SCD40_MEASUREMENT} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b conversion} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v conversion\:SCD41.c}
+{\xe \v SCD41.c\:conversion}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void conversion (void )}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 161} of file {\b SCD41.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8c_a2a744c8c0bf8d778a1f38ac77974fc56_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v I2C0_SCD40_init\:SCD41.c}
+{\xe \v SCD41.c\:I2C0_SCD40_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C0_SCD40_init (void )}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 21} of file {\b SCD41.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8c_a8163e80de534b86520c786158ba4ff38_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v POLL_READY_STATUS\:SCD41.c}
+{\xe \v SCD41.c\:POLL_READY_STATUS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t POLL_READY_STATUS (void )}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 133} of file {\b SCD41.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8c_adb91f1550e5c9a850af7cf6141404776_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v SCD40_MEASUREMENT\:SCD41.c}
+{\xe \v SCD41.c\:SCD40_MEASUREMENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SCD40_MEASUREMENT (void )}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 147} of file {\b SCD41.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8c_a3f444b135ad5391cb9bfc17b714c9da7_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8c_a3f444b135ad5391cb9bfc17b714c9da7_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v SCD40_READ\:SCD41.c}
+{\xe \v SCD41.c\:SCD40_READ}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t * SCD40_READ (uint16_t  {\i command}, uint8_t  {\i data_size})}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 66} of file {\b SCD41.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8c_a1b94578223cd7096dff55de10286c781_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v SCD40_WRITE_COMMAND\:SCD41.c}
+{\xe \v SCD41.c\:SCD40_WRITE_COMMAND}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SCD40_WRITE_COMMAND (uint16_t  {\i command})}}
+\par
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 38} of file {\b SCD41.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8c_ac52ebd6ed631942e2bca4c21e6963e22_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SCD41.c\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.c}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf20 /***************************************************************************}\par
+00002 {\cf20 ;*}\par
+00003 {\cf20 ;* Title: "SCD41.c" - SCD41 measurement}\par
+00004 {\cf20 ;* Author: Keerthi Kumanan}\par
+00005 {\cf20 ;* Version: 1.0}\par
+00006 {\cf20 ;* Last updated: 04/14/2022}\par
+00007 {\cf20 ;* Target: AVR128DB48}\par
+00008 {\cf20 ;*}\par
+00009 {\cf20 ;* DESCRIPTION}\par
+00010 {\cf20 ;* driver functions for the SCD41}\par
+00011 {\cf20 ;*}\par
+00012 {\cf20 ;* VERSION HISTORY}\par
+00013 {\cf20 ;* 1.0 Original version}\par
+00014 {\cf20 ;**************************************************************************/}\par
+00015 {\cf21 #include "SCD41.h"}\par
+00016 \par
+00017 \par
+00018 \par
+00020 \par
+00021 {\cf18 void} I2C0_SCD40_init({\cf18 void})\{\par
+00022     {\cf20 //configure PA2 (SDA)  PA3 (SCl) as inputs}\par
+00023     PORTA.DIR = 0x00;\par
+00024 \par
+00025     {\cf20 //Master Baud rate set to 15}\par
+00026     TWI0.MBAUD = 15;\par
+00027 \par
+00028     {\cf20 //Enable the TWI master}\par
+00029     TWI0.MCTRLA = TWI_ENABLE_bm;\par
+00030 \par
+00031     {\cf20 //Forcing Bus state to Idle}\par
+00032     TWI0.MSTATUS = TWI_BUSSTATE_IDLE_gc;\par
+00033 \}\par
+00034 \par
+00035 \par
+00036 \par
+00037 \par
+00038 {\cf18 void} SCD40_WRITE_COMMAND(uint16_t command)\{\par
+00039     \par
+00040     Command_address send_command;\par
+00041     send_command.address = command;\par
+00042     \par
+00043     {\cf20 //Master starts performing a bus transaction}\par
+00044     {\cf20 //when then the master address register is written}\par
+00045     TWI0.MADDR = WRITE_OPCODE;\par
+00046 \par
+00047     {\cf20 //wait for data packet to be transmitted}\par
+00048     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00049 \par
+00050     TWI0.MDATA = send_command.address_msb;\par
+00051 \par
+00052     {\cf20 //wait for data packet to be transmitted}\par
+00053     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00054 \par
+00055     TWI0.MDATA = send_command.address_lsb;\par
+00056 \par
+00057     {\cf20 //wait for data packet to be transmitted}\par
+00058     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00059 \par
+00060     {\cf20 //complete transaction by issuing a stop condition}\par
+00061     TWI0.MCTRLB |= TWI_MCMD_STOP_gc;\par
+00062     \par
+00063 \}\par
+00064 \par
+00065 \par
+00066 uint8_t* SCD40_READ(uint16_t command, uint8_t data_size)\{\par
+00067     _delay_ms(50);\par
+00068     \par
+00069     uint8_t* read_value;\par
+00070     read_value = data;\par
+00071     uint8_t i = 0;\par
+00072     \par
+00073     Command_address send_command;\par
+00074     send_command.address = command;\par
+00075     \par
+00076     {\cf20 //Master starts performing a bus transaction}\par
+00077     {\cf20 //when then the master address register is written}\par
+00078     TWI0.MADDR = WRITE_OPCODE;\par
+00079     \par
+00080     \par
+00081 \par
+00082     {\cf20 //wait for data packet to be transmitted}\par
+00083     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00084 \par
+00085     TWI0.MDATA = send_command.address_msb;\par
+00086 \par
+00087     {\cf20 //wait for data packet to be transmitted}\par
+00088     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00089 \par
+00090     TWI0.MDATA = send_command.address_lsb;\par
+00091 \par
+00092     {\cf20 //wait for data packet to be transmitted}\par
+00093     {\cf19 while}(!(TWI0.MSTATUS & TWI_WIF_bm));\par
+00094     \par
+00095     {\cf20 //delay for 1 ms}\par
+00096     _delay_ms(1);\par
+00097     \par
+00098     {\cf20 //Repeated Start}\par
+00099     {\cf20 //Master starts performing a bus transaction}\par
+00100     {\cf20 //when then the master address register is written}\par
+00101     TWI0.MADDR = READ_OPCODE;\par
+00102     \par
+00103     \par
+00104     {\cf19 for}(i = data_size - 1 ; i > 0 ; i++)\{\par
+00105         \par
+00106         {\cf20 //wait till byte is fully received from slave}\par
+00107         {\cf19 while}(!(TWI0.MSTATUS & TWI_RIF_bm));\par
+00108         \par
+00109         {\cf20 //read received value}\par
+00110         read_value[i] = TWI0.MDATA;\par
+00111         \par
+00112         {\cf20 //ACK to read in new data packet}\par
+00113         TWI0.MCTRLB = TWI_MCMD_RECVTRANS_gc;\par
+00114     \}\par
+00115     \par
+00116     \par
+00117     \par
+00118     {\cf20 //wait till byte is fully received from slave}\par
+00119     {\cf19 while}(!(TWI0.MSTATUS & TWI_RIF_bm));\par
+00120     \par
+00121     read_value[0] = TWI0.MDATA;\par
+00122     \par
+00123     \par
+00124     {\cf20 //NACK and stop command}\par
+00125     TWI0.MCTRLB = TWI_MCMD_gm | TWI_ACKACT_bm;\par
+00126     \par
+00127     {\cf19 return} read_value;\par
+00128     \par
+00129 \}\par
+00130 \par
+00131 \par
+00132 \par
+00133 uint8_t POLL_READY_STATUS({\cf18 void})\{\par
+00134     uint8_t* ready_data;\par
+00135     \par
+00136     ready_data = SCD40_READ(get_data_ready_status, 3);\par
+00137     \par
+00138     {\cf19 if} (!(ready_data[1] && ((ready_data[2]) & (0x07)))) \{\par
+00139         {\cf19 return} 0;\par
+00140     \}\par
+00141     {\cf19 else}\{\par
+00142         {\cf19 return} 1;\par
+00143     \}\par
+00144 \par
+00145 \}\par
+00146 \par
+00147 {\cf18 void} SCD40_MEASUREMENT({\cf18 void})\{\par
+00148     SCD40_WRITE_COMMAND(start_periodic_measurement);\par
+00149 \par
+00150     {\cf20 //while(POLL_READY_STATUS())\{\};}\par
+00151     \par
+00152     SCD40_READ(get_data_ready_status, 3);\par
+00153     \par
+00154     {\cf20 //if (!(READY[0] == 0x00 && ((int) (READY[1]) & (PIN0_bm | PIN1_bm | PIN2_bm) == 0x00)))\{}\par
+00155     {\cf19 if}(READY[0] == 0x06)\{\par
+00156         SCD40_READ(read_measurement, 9);\par
+00157     \}\par
+00158 \}\par
+00159 \par
+00160 \par
+00161 {\cf18 void} conversion()\{\par
+00162     uint32_t intermediate;\par
+00163     \par
+00164     {\cf20 //CO2}\par
+00165     result temp;\par
+00166     \par
+00167     temp.high = DATA[0];\par
+00168     temp.low = DATA[1];\par
+00169     \par
+00170     result_final[0] = temp.merge;\par
+00171     \par
+00172     {\cf20 //Temperature}\par
+00173     \par
+00174     temp.high = DATA[3];\par
+00175     temp.low = DATA[4];\par
+00176     intermediate = temp.merge;\par
+00177     \par
+00178     intermediate = intermediate/ 16;\par
+00179     intermediate  = 5 * intermediate;\par
+00180     intermediate = intermediate/ 16;\par
+00181     intermediate  = 5 * intermediate;\par
+00182     intermediate = intermediate/ 16;\par
+00183     intermediate  = 7 * intermediate;\par
+00184     intermediate = intermediate/ 16;\par
+00185     intermediate -= 45;\par
+00186     \par
+00187     result_final[1] = intermediate;\par
+00188     \par
+00189     {\cf20 //Relative humidity}\par
+00190     \par
+00191     temp.high = DATA[7];\par
+00192     temp.low = DATA[8];\par
+00193     \par
+00194     intermediate = temp.merge;\par
+00195     \par
+00196     intermediate = intermediate/ 16;\par
+00197     intermediate *= 10;\par
+00198     intermediate /= 16;\par
+00199     intermediate *= 10;\par
+00200     intermediate /= 16;\par
+00201     intermediate /= 16;\par
+00202     \par
+00203     \par
+00204     result_final[2] = intermediate;\par
+00205 \par
+00206 \}\par
+00207 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.h File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.h}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.h}
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <avr/io.h>}\par
+{\f2 #include <util/delay.h>}\par
+{\f2 #include "LCD_DOG_avr128_driver.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for SCD41.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This graph shows which files directly or indirectly include this file:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h__dep__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Data Structures\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+union {\b Command_address}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+union {\b result}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b F_CPU}\~ 4000000\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b WRITE_OPCODE}\~ 0xC4\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b READ_OPCODE}\~ 0XC5\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b get_data_ready_status}\~ 0xE4B8\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b start_periodic_measurement}\~ 0x21b1\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b read_measurement}\~ 0xEC05\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b stop_periodic_measurement}\~ 0x3F86\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b I2C0_SCD40_init} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b SCD40_MEASUREMENT} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b SCD40_WRITE_COMMAND} (uint16_t command)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t * {\b SCD40_READ} (uint16_t command, uint8_t data_size)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t {\b POLL_READY_STATUS} (void)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b conversion} (void)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variables\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t {\b data} [9]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint16_t {\b result_final} [3]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t {\b DATA} [9]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t {\b READY} [3]\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macro Definition Documentation\par
+\pard\plain 
+{\xe \v F_CPU\:SCD41.h}
+{\xe \v SCD41.h\:F_CPU}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define F_CPU\~ 4000000}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 1} of file {\b SCD41.h}.}\par
+}
+{\xe \v get_data_ready_status\:SCD41.h}
+{\xe \v SCD41.h\:get_data_ready_status}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define get_data_ready_status\~ 0xE4B8}}
+\par
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 9} of file {\b SCD41.h}.}\par
+}
+{\xe \v read_measurement\:SCD41.h}
+{\xe \v SCD41.h\:read_measurement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define read_measurement\~ 0xEC05}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 11} of file {\b SCD41.h}.}\par
+}
+{\xe \v READ_OPCODE\:SCD41.h}
+{\xe \v SCD41.h\:READ_OPCODE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define READ_OPCODE\~ 0XC5}}
+\par
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 8} of file {\b SCD41.h}.}\par
+}
+{\xe \v start_periodic_measurement\:SCD41.h}
+{\xe \v SCD41.h\:start_periodic_measurement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define start_periodic_measurement\~ 0x21b1}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 10} of file {\b SCD41.h}.}\par
+}
+{\xe \v stop_periodic_measurement\:SCD41.h}
+{\xe \v SCD41.h\:stop_periodic_measurement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define stop_periodic_measurement\~ 0x3F86}}
+\par
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 12} of file {\b SCD41.h}.}\par
+}
+{\xe \v WRITE_OPCODE\:SCD41.h}
+{\xe \v SCD41.h\:WRITE_OPCODE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define WRITE_OPCODE\~ 0xC4}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 7} of file {\b SCD41.h}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v conversion\:SCD41.h}
+{\xe \v SCD41.h\:conversion}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void conversion (void )}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 161} of file {\b SCD41.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h_ae37ea846312dd17fc93841346a77fb7b_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v I2C0_SCD40_init\:SCD41.h}
+{\xe \v SCD41.h\:I2C0_SCD40_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void I2C0_SCD40_init (void )}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 21} of file {\b SCD41.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h_a8163e80de534b86520c786158ba4ff38_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v POLL_READY_STATUS\:SCD41.h}
+{\xe \v SCD41.h\:POLL_READY_STATUS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t POLL_READY_STATUS (void )}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 133} of file {\b SCD41.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h_adb91f1550e5c9a850af7cf6141404776_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v SCD40_MEASUREMENT\:SCD41.h}
+{\xe \v SCD41.h\:SCD40_MEASUREMENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SCD40_MEASUREMENT (void )}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 147} of file {\b SCD41.c}.}\par
+Here is the call graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h_a3f444b135ad5391cb9bfc17b714c9da7_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h_a3f444b135ad5391cb9bfc17b714c9da7_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v SCD40_READ\:SCD41.h}
+{\xe \v SCD41.h\:SCD40_READ}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t * SCD40_READ (uint16_t  {\i command}, uint8_t  {\i data_size})}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 66} of file {\b SCD41.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h_a1b94578223cd7096dff55de10286c781_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v SCD40_WRITE_COMMAND\:SCD41.h}
+{\xe \v SCD41.h\:SCD40_WRITE_COMMAND}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SCD40_WRITE_COMMAND (uint16_t  {\i command})}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 38} of file {\b SCD41.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_s_c_d41_8h_ac52ebd6ed631942e2bca4c21e6963e22_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variable Documentation\par
+\pard\plain 
+{\xe \v data\:SCD41.h}
+{\xe \v SCD41.h\:data}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t data[9]}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 139} of file {\b SCD41.h}.}\par
+}
+{\xe \v DATA\:SCD41.h}
+{\xe \v SCD41.h\:DATA}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t DATA[9]}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 141} of file {\b SCD41.h}.}\par
+}
+{\xe \v READY\:SCD41.h}
+{\xe \v SCD41.h\:READY}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t READY[3]}}
+\par
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 142} of file {\b SCD41.h}.}\par
+}
+{\xe \v result_final\:SCD41.h}
+{\xe \v SCD41.h\:result_final}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint16_t result_final[3]}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 140} of file {\b SCD41.h}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SCD41.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.h}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/SCD41.h}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #define F_CPU 4000000}\par
+00002 {\cf21 #include <avr/io.h>}\par
+00003 {\cf21 #include <util/delay.h>}\par
+00004 {\cf21 #include "LCD_DOG_avr128_driver.h"}\par
+00005 \par
+00006 {\cf20 //Hex codes}\par
+00007 {\cf21 #define WRITE_OPCODE 0xC4}\par
+00008 {\cf21 #define READ_OPCODE 0XC5}\par
+00009 {\cf21 #define get_data_ready_status 0xE4B8}\par
+00010 {\cf21 #define start_periodic_measurement 0x21b1}\par
+00011 {\cf21 #define read_measurement 0xEC05}\par
+00012 {\cf21 #define stop_periodic_measurement 0x3F86}\par
+00013 \par
+00014 \par
+00015 \par
+00016 {\cf20 /***************************************************************************}\par
+00017 {\cf20 ;*}\par
+00018 {\cf20 ;* I2C0_MCP23017_init - title}\par
+00019 {\cf20 ;*}\par
+00020 {\cf20 ;* Description: Initializes the I2C module for the SCD41}\par
+00021 {\cf20 ;*}\par
+00022 {\cf20 ;* Author: Keerthi Kumanan}\par
+00023 {\cf20 ;* Version: 1.0}\par
+00024 {\cf20 ;* Last updated: 04/14/2022}\par
+00025 {\cf20 ;* Target: AVR128DB48}\par
+00026 {\cf20 ;* Parameters: none}\par
+00027 {\cf20 ;*}\par
+00028 {\cf20 ;* Returns: none}\par
+00029 {\cf20 ;*}\par
+00030 {\cf20 ;*}\par
+00031 {\cf20 ;**************************************************************************/}\par
+00032 {\cf18 void} I2C0_SCD40_init({\cf18 void});\par
+00033 {\cf20 /***************************************************************************}\par
+00034 {\cf20 ;*}\par
+00035 {\cf20 ;* SCD40_MEASUREMENT - title}\par
+00036 {\cf20 ;*}\par
+00037 {\cf20 ;* Description: starts measurement, checks if the data is ready and then }\par
+00038 {\cf20 ;*              reads the data into an array}\par
+00039 {\cf20 ;*}\par
+00040 {\cf20 ;* Author: Keerthi Kumanan}\par
+00041 {\cf20 ;* Version: 1.0}\par
+00042 {\cf20 ;* Last updated: 04/14/2022}\par
+00043 {\cf20 ;* Target: AVR128DB48}\par
+00044 {\cf20 ;* Parameters: none}\par
+00045 {\cf20 ;*}\par
+00046 {\cf20 ;* Returns: none}\par
+00047 {\cf20 ;*}\par
+00048 {\cf20 ;*}\par
+00049 {\cf20 ;**************************************************************************/}\par
+00050 {\cf18 void} SCD40_MEASUREMENT({\cf18 void});\par
+00051 {\cf20 /***************************************************************************}\par
+00052 {\cf20 ;*}\par
+00053 {\cf20 ;* SCD40_WRITE_COMMAND - title}\par
+00054 {\cf20 ;*}\par
+00055 {\cf20 ;* Description: Writes command to the SCD41}\par
+00056 {\cf20 ;*}\par
+00057 {\cf20 ;* Author: Keerthi Kumanan}\par
+00058 {\cf20 ;* Version: 1.0}\par
+00059 {\cf20 ;* Last updated: 04/14/2022}\par
+00060 {\cf20 ;* Target: AVR128DB48}\par
+00061 {\cf20 ;* Parameters: uint16_t command}\par
+00062 {\cf20 ;*}\par
+00063 {\cf20 ;* Returns: none}\par
+00064 {\cf20 ;*}\par
+00065 {\cf20 ;*}\par
+00066 {\cf20 ;**************************************************************************/}\par
+00067 {\cf18 void} SCD40_WRITE_COMMAND(uint16_t command);\par
+00068 {\cf20 /***************************************************************************}\par
+00069 {\cf20 ;*}\par
+00070 {\cf20 ;* SCD40_READ - title}\par
+00071 {\cf20 ;*}\par
+00072 {\cf20 ;* Description: reads from the SCD41}\par
+00073 {\cf20 ;*}\par
+00074 {\cf20 ;* Author: Keerthi Kumanan}\par
+00075 {\cf20 ;* Version: 1.0}\par
+00076 {\cf20 ;* Last updated: 04/14/2022}\par
+00077 {\cf20 ;* Target: AVR128DB48}\par
+00078 {\cf20 ;* Parameters: uint16_t command, uint8_t data_size}\par
+00079 {\cf20 ;*}\par
+00080 {\cf20 ;* Returns: array with read data}\par
+00081 {\cf20 ;*}\par
+00082 {\cf20 ;*}\par
+00083 {\cf20 ;**************************************************************************/}\par
+00084 uint8_t* SCD40_READ(uint16_t command, uint8_t data_size);\par
+00085 {\cf20 /***************************************************************************}\par
+00086 {\cf20 ;*}\par
+00087 {\cf20 ;* POLL_READY_STATUS - title}\par
+00088 {\cf20 ;*}\par
+00089 {\cf20 ;* Description: checks if the SCD41 is ready to be read for data}\par
+00090 {\cf20 ;*}\par
+00091 {\cf20 ;* Author: Keerthi Kumanan}\par
+00092 {\cf20 ;* Version: 1.0}\par
+00093 {\cf20 ;* Last updated: 04/14/2022}\par
+00094 {\cf20 ;* Target: AVR128DB48}\par
+00095 {\cf20 ;* Parameters: none}\par
+00096 {\cf20 ;*}\par
+00097 {\cf20 ;* Returns: uint8_t (1 if ready and 0 if not ready)}\par
+00098 {\cf20 ;*}\par
+00099 {\cf20 ;*}\par
+00100 {\cf20 ;**************************************************************************/}\par
+00101 uint8_t POLL_READY_STATUS({\cf18 void});\par
+00102 {\cf20 /***************************************************************************}\par
+00103 {\cf20 ;*}\par
+00104 {\cf20 ;* conversion - title}\par
+00105 {\cf20 ;*}\par
+00106 {\cf20 ;* Description: converts results to values that can be displayed on the LCD}\par
+00107 {\cf20 ;*}\par
+00108 {\cf20 ;* Author: Keerthi Kumanan}\par
+00109 {\cf20 ;* Version: 1.0}\par
+00110 {\cf20 ;* Last updated: 04/14/2022}\par
+00111 {\cf20 ;* Target: AVR128DB48}\par
+00112 {\cf20 ;* Parameters: none}\par
+00113 {\cf20 ;*}\par
+00114 {\cf20 ;* Returns: none}\par
+00115 {\cf20 ;*}\par
+00116 {\cf20 ;*}\par
+00117 {\cf20 ;**************************************************************************/}\par
+00118 {\cf18 void} conversion({\cf18 void});\par
+00119 \par
+00120 {\cf17 typedef} {\cf17 union}\{\par
+00121     uint16_t address;\par
+00122     {\cf17 struct}\{\par
+00123         uint8_t address_lsb;\par
+00124         uint8_t address_msb;\par
+00125         \par
+00126     \};\par
+00127 \}Command_address;\par
+00128 \par
+00129 {\cf17 typedef} {\cf17 union}\{\par
+00130     uint16_t merge;\par
+00131     {\cf17 struct}\{\par
+00132         uint8_t low;\par
+00133         uint8_t high;\par
+00134         \par
+00135     \};\par
+00136 \}result;\par
+00137 \par
+00138 {\cf20 //globals}\par
+00139 uint8_t data[9];\par
+00140 uint16_t result_final[3];\par
+00141 uint8_t DATA[9];\par
+00142 uint8_t READY[3];\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.c File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.c}
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <avr/io.h>}\par
+{\f2 #include <avr/interrupt.h>}\par
+{\f2 #include "USART3.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for USART3.c:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_u_s_a_r_t3_8c__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b F_PER}\~ 4000000\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b UART_init} (uint16_t baud, uint8_t {\b data}, unsigned char parity)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b UART_SendChar} (char c)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macro Definition Documentation\par
+\pard\plain 
+{\xe \v F_PER\:USART3.c}
+{\xe \v USART3.c\:F_PER}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define F_PER\~ 4000000}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 6} of file {\b USART3.c}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v UART_init\:USART3.c}
+{\xe \v USART3.c\:UART_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UART_init (uint16_t  {\i baud}, uint8_t  {\i data}, unsigned char  {\i parity})}}
+\par
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 12} of file {\b USART3.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_u_s_a_r_t3_8c_aa663fe7aa9fe03da94ec22acc4be88a9_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v UART_SendChar\:USART3.c}
+{\xe \v USART3.c\:UART_SendChar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UART_SendChar (char  {\i c})}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 38} of file {\b USART3.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_u_s_a_r_t3_8c_a4a3cfbee206d916c5738bd0b14af5424_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+USART3.c\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.c}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.c}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 \par
+00002 {\cf21 #include <avr/io.h>}\par
+00003 {\cf21 #include <avr/interrupt.h>}\par
+00004 {\cf21 #include "USART3.h"}\par
+00005 \par
+00006 {\cf21 #define F_PER 4000000}\par
+00007 \par
+00008 \par
+00010 \par
+00011 {\cf20 /* Initialize USART */}\par
+00012 {\cf18 void} UART_init(uint16_t baud, uint8_t data, {\cf18 unsigned} {\cf18 char} parity)\{\par
+00013     {\cf20 //setting the Baud rate}\par
+00014     USART3.BAUD = 1667;\par
+00015     \par
+00016     \par
+00017     {\cf19 if}(parity == {\cf23 'E'})\{\par
+00018         {\cf20 //Asynchronous mode, 0 - 8 bit data, no stop bit, 1 stop bit,  even parity}\par
+00019         USART3.CTRLC =  USART_CMODE_ASYNCHRONOUS_gc | (data - 5) | USART_PMODE_EVEN_gc  |USART_SBMODE_1BIT_gc;\par
+00020     \}\par
+00021     {\cf19 else} {\cf19 if}(parity == {\cf23 'O'})\{\par
+00022         {\cf20 //Asynchronous mode, 0 - 8 bit data, no stop bit, 1 stop bit,  odd parity}\par
+00023         USART3.CTRLC =  USART_CMODE_ASYNCHRONOUS_gc | (data - 5) | USART_PMODE_ODD_gc  |USART_SBMODE_1BIT_gc;\par
+00024     \}\par
+00025     {\cf19 else}\{\par
+00026         {\cf20 //Asynchronous mode, 0 - 8 bit data, no stop bit, 1 stop bit,  no parity}\par
+00027         USART3.CTRLC =  USART_CMODE_ASYNCHRONOUS_gc | (data - 5) | USART_PMODE_DISABLED_gc  |USART_SBMODE_1BIT_gc;\par
+00028     \}\par
+00029     \par
+00030     {\cf20 //configuring the TXD pin as an output}\par
+00031     PORTB.DIR = PIN0_bm;\par
+00032         \par
+00033     {\cf20 //Normal mode and enable transmit}\par
+00034     USART3.CTRLB =  USART_RXMODE_NORMAL_gc |  USART_TXEN_bm;\par
+00035     \par
+00036 \}\par
+00037 \par
+00038 {\cf18 void} UART_SendChar({\cf18 char} c)\{\par
+00039     {\cf19 while}(!(USART3.STATUS & USART_DREIF_bm))\{\};\par
+00040     USART3.TXDATAL = c;\par
+00041 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.h File Reference\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.h}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.h}
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <avr/io.h>}\par
+{\f2 #include <avr/interrupt.h>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Include dependency graph for USART3.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_u_s_a_r_t3_8h__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This graph shows which files directly or indirectly include this file:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_u_s_a_r_t3_8h__dep__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b F_PER}\~ 4000000\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b UART_init} (uint16_t baud, uint8_t {\b data}, unsigned char parity)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b UART_SendChar} (char c)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Macro Definition Documentation\par
+\pard\plain 
+{\xe \v F_PER\:USART3.h}
+{\xe \v USART3.h\:F_PER}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define F_PER\~ 4000000}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 19} of file {\b USART3.h}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v UART_init\:USART3.h}
+{\xe \v USART3.h\:UART_init}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UART_init (uint16_t  {\i baud}, uint8_t  {\i data}, unsigned char  {\i parity})}}
+\par
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 12} of file {\b USART3.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_u_s_a_r_t3_8h_aa663fe7aa9fe03da94ec22acc4be88a9_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v UART_SendChar\:USART3.h}
+{\xe \v USART3.h\:UART_SendChar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UART_SendChar (char  {\i c})}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 38} of file {\b USART3.c}.}\par
+Here is the caller graph for this function:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_u_s_a_r_t3_8h_a4a3cfbee206d916c5738bd0b14af5424_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+USART3.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.h}
+{\xe \v C:/Users/kkumanan/Desktop/ese381/Laboratories/Laboratory11/Task1/Task1/USART3.h}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+Go to the documentation of this file.{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf20 /***************************************************************************}\par
+00002 {\cf20 ;*}\par
+00003 {\cf20 ;* "USART3.h" - USART3 function header}\par
+00004 {\cf20 ;*}\par
+00005 {\cf20 ;* Description: USART3 function header}\par
+00006 {\cf20 ;*}\par
+00007 {\cf20 ;* Author:          Keerthi Kumanan}\par
+00008 {\cf20 ;* Version:         0.1}\par
+00009 {\cf20 ;* Last updated:        101221}\par
+00010 {\cf20 ;* Target:          AVR128DB48}\par
+00011 {\cf20 ;*}\par
+00012 {\cf20 ***************************************************************************/}\par
+00013 \par
+00014 \par
+00015 \par
+00016 {\cf21 #include <avr/io.h>}\par
+00017 {\cf21 #include <avr/interrupt.h>}\par
+00018 \par
+00019 {\cf21 #define F_PER 4000000}\par
+00020 \par
+00021 \par
+00022 {\cf20 /***************************************************************************}\par
+00023 {\cf20 ;*}\par
+00024 {\cf20 ;* USART3_init - title}\par
+00025 {\cf20 ;*}\par
+00026 {\cf20 ;* Description: Initializes the USART3 module on the AVR128DB48}\par
+00027 {\cf20 ;*}\par
+00028 {\cf20 ;* Author: Keerthi Kumanan}\par
+00029 {\cf20 ;* Version: 1.0}\par
+00030 {\cf20 ;* Last updated: 04/14/2022}\par
+00031 {\cf20 ;* Target: AVR128DB48}\par
+00032 {\cf20 ;* Parameters: uint16_t baud, uint8_t data, unsigned char parity}\par
+00033 {\cf20 ;*}\par
+00034 {\cf20 ;* Returns: none}\par
+00035 {\cf20 ;*}\par
+00036 {\cf20 ;*}\par
+00037 {\cf20 ;**************************************************************************/}\par
+00038 {\cf18 void} UART_init(uint16_t baud, uint8_t data, {\cf18 unsigned} {\cf18 char} parity);\par
+00039 \par
+00040 \par
+00041 \par
+00042 {\cf20 /***************************************************************************}\par
+00043 {\cf20 ;*}\par
+00044 {\cf20 ;* USART3_transmit - title}\par
+00045 {\cf20 ;*}\par
+00046 {\cf20 ;* Description: transmits a byte of data using the USART protocol}\par
+00047 {\cf20 ;*}\par
+00048 {\cf20 ;* Author: Keerthi Kumanan}\par
+00049 {\cf20 ;* Version: 1.0}\par
+00050 {\cf20 ;* Last updated: 04/14/2022}\par
+00051 {\cf20 ;* Target: AVR128DB48}\par
+00052 {\cf20 ;* Parameters: uint8_t data}\par
+00053 {\cf20 ;*}\par
+00054 {\cf20 ;* Returns: none}\par
+00055 {\cf20 ;*}\par
+00056 {\cf20 ;*}\par
+00057 {\cf20 ;**************************************************************************/}\par
+00058 {\cf18 void} UART_SendChar({\cf18 char} c);\par
+00059 \par
+00060 \par
+00061 \par
+00062 \par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
